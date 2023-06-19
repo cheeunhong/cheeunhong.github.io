@@ -151,8 +151,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Hong
-  first_name: Cheeun
+  last_name: [Hong]
+  first_name: [Cheeun]
 
   style: apa
   locale: en
