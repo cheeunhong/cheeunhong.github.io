@@ -5,14 +5,16 @@ title: Publications
 description: 
 years: [2023, 2022, 2021, 2020]
 nav: true
-importance: 2
+# importance: 2
+nav_order: 1
 ---
 
 <div class="publications">
 
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  <!-- {% bibliography -f papers -q @*[year={{y}}]* %} -->
+  {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
