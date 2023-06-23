@@ -150,8 +150,8 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: ["Hong"]
-  first_name: ["Cheeun"]
+  last_name: ["Hong", "Cheeun"]
+  first_name: ["Cheeun", "Hong"]
 
   style: apa
   locale: en
