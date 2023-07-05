@@ -6,3 +6,4 @@
 changed _layouts/bib.html L16 
  {%- elsif entry.abbr -%} to  {%- if entry.abbr -%} 
  and added {%- endif -%}
+ .
