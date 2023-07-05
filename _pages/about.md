@@ -7,6 +7,7 @@ description: >
 
 profile:
   align: right
+  image_circular: true # crops the image to make it circular
   image: cheeun_pic.jpg
   address: 
 
