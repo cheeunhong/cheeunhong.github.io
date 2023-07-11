@@ -6,13 +6,13 @@
           {%- if entry.preview -%}
           <div class="preview">
               {% if entry.preview contains '://' -%}
-              <img class="preview img-fluid z-depth-1" src="{{ entry.preview }}">
+                <img class="preview img-fluid z-depth-1" src="{{ entry.preview }}">
               {%- else -%}
                 {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
                 {% include figure.html
                 path=entry_path
-                class="preview z-depth-1 rounded"
-                width="130"
+                class="preview img-fluid z-depth-1"
+                width="150"
                 alt=entry.preview -%}
               {%- endif -%}
           </div>
