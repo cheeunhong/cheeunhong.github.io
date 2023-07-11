@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2020-03-01
+date2: 2023-03-01
 inline: true
 ---
 <p>Seoul National University, South Korea<br>
