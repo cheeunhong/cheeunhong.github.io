@@ -3,16 +3,16 @@
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-3 abbr">
-          {% if entry.abbr %}
-            <img src="../assets/img/publication_preview/{{entry.preview}}" class="teaser img-fluid z-depth-1">
-          {% endif %}
-          {% if entry.abbr %}
-                {% if site.data.venues[entry.abbr] %}
+          {%- if entry.abbr -%}
+            <img class="preview img-fluid z-depth-1" src="../assets/img/publication_preview/{{ entry.preview }}">
+          {%- endif -%}
+          {%- if entry.abbr -%}
+                {%- if site.data.venues[entry.abbr] -%}
                     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-                {% else %}
+                {%- else -%}
                     <abbr class="badge">{{entry.abbr}}</abbr>
-                {% endif %}
-          {% endif %}
+                {%- endif -%}
+          {%- endif -%}
         </div>
 
         <!-- <div class="col-sm-2">
