@@ -20,7 +20,8 @@
   selected={true},
   code={https://github.com/JungHunOh/SLS_CVPR2022},
   abbr={CVPR},
-  year={2022}
+  year={2022},
+  abstract={Image restoration tasks have witnessed great performance improvement in recent years by developing large deep models. Despite the outstanding performance, the heavy computation demanded by the deep models has restricted the application of image restoration. To lift the restriction, it is required to reduce the size of the networks while maintaining accuracy. Recently, N: M structured pruning has appeared as one of the effective and practical pruning approaches for making the model efficient with the accuracy constraint. However, it fails to account for different computational complexities and performance requirements for different layers of an image restoration network. To further optimize the trade-off between the efficiency and the restoration accuracy, we propose a novel pruning method that determines the pruning ratio for N: M structured sparsity at each layer. Extensive experimental results on super-resolution and deblurring tasks demonstrate the efficacy of our method which outperforms previous pruning methods significantly. PyTorch implementation for the proposed methods will be publicly available at <a href="https://github.com/JungHunOh/SLS_CVPR2022">https://github.com/JungHunOh/SLS_CVPR2022</a>.}
 }
 
 @article{hong2022daq,
@@ -32,7 +33,8 @@
   selected={true},
   code={https://github.com/Cheeun/DAQ-pytorch},
   abbr={WACV},
-  year={2022}
+  year={2022},
+  abstract={Since the resurgence of deep neural networks (DNNs), image super-resolution (SR) has recently seen a huge progress in improving the quality of low resolution images, however at the great cost of computations and resources. Recently, there has been several efforts to make DNNs more efficient via quantization. However, SR demands pixel-level accuracy in the system, it is more difficult to perform quantization without significantly sacrificing SR performance. To this end, we introduce a new ultra-low precision yet effective quantization approach specifically designed for SR. In particular, we observe that in recent SR networks, each channel has different distribution characteristics. Thus we propose a channel-wise distribution-aware quantization scheme. Experimental results demonstrate that our proposed quantization, dubbed Distribution-Aware Quantization (DAQ), manages to greatly reduce the computational and resource costs without the significant sacrifice in SR performance, compared to other quantization methods.}
 }
 
 @article{oh2022batch,
@@ -43,5 +45,6 @@
   pdf={https://arxiv.org/abs/2112.01155},
   selected={true},
   abbr={WACV},
-  year={2022}
+  year={2022},
+  abstract={The goal of filter pruning is to search for unimportant filters to remove in order to make convolutional neural networks (CNNs) efficient without sacrificing the performance in the process. The challenge lies in finding information that can help determine how important or relevant each filter is with respect to the final output of neural networks. In this work, we share our observation that the batch normalization (BN) parameters of pre-trained CNNs can be used to estimate the feature distribution of activation outputs, without processing of training data. Upon observation, we propose a simple yet effective filter pruning method by evaluating the importance of each filter based on the BN parameters of pre-trained CNNs. The experimental results on CIFAR-10 and ImageNet demonstrate that the proposed method can achieve outstanding performance with and without fine-tuning in terms of the trade-off between the accuracy drop and the reduction in computational complexity and number of parameters of pruned networks.}
 }
