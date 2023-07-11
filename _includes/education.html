@@ -9,6 +9,8 @@
             <th scope="row">{{ item.date | date: "%b %Y" }}</th>
             {% if item.date2  %}
                 <th scope="row">{{ item.date2 | date: "~%b %Y" }}</th>
+            {% else %}
+                <th scope="row">{{ item.date2 | date: " " }}</th>
             {% endif %}
             <td>
               {% if item.inline %}
