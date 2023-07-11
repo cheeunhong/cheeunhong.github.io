@@ -28,7 +28,7 @@ cv: cheeun-cv-2023.06.pdf
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -141,7 +141,6 @@ plugins:
   - jekyll-twitter-plugin
   - jekyll-sitemap
   - jemoji
-  - jekyll-imagemagick
 
 # Extras
 github: [metadata]
