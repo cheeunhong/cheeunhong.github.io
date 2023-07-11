@@ -1,7 +1,7 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-sm-2">
           {%- if entry.preview -%}
             <img class="preview img-fluid z-depth-1" src="../assets/img/publication_preview/{{ entry.preview }}">
@@ -9,14 +9,13 @@
           {%- if entry.abbr -%}
                 {%- if site.data.venues[entry.abbr] -%}
                     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-                    <!-- <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr> -->
                 {%- else -%}
                     <abbr class="badge">{{entry.abbr}}</abbr>
                 {%- endif -%}
           {%- endif -%}
-        </div>
+        </div> -->
 
-        <!-- <div class="col-sm-2">
+        <div class="col-sm-2">
           {%- if entry.abbr -%}
           <div class="abbr">
               {%- if site.data.venues[entry.abbr] -%}
@@ -43,7 +42,7 @@
               {%- endif -%}
           </div>
           {%- endif -%}
-        </div> -->
+        </div>
 
 
         <!-- <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
