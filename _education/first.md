@@ -6,4 +6,4 @@ inline: true
 ---
 Seoul National University, South Korea<br>
 Integrated Ph.D. in Electrical and Computer Engineering<br>
-Advisor: Prof. Kyoung Mu Lee
+Advisor: Prof. Kyoung Mu Lee <br>

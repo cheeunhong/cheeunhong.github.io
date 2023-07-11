@@ -1,11 +1,11 @@
 <div class="education">
-    <h2>Education</h2>
-    {% if site.education  %}
-      <div class="table-responsive">
-        <table class="table table-sm table-borderless">
+  <h2>Education</h2>
+  {% if site.education  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
         {% assign education = site.education | reverse %}
         {% for item in education limit: site.news_limit %}
-          <tr>
+            <tr>
             <th scope="row">{{ item.date | date: "%b %Y" }}</th>
             {% if item.date2  %}
                 <th scope="row">{{ item.date2 | date: "~%b %Y" }}</th>
@@ -13,18 +13,18 @@
                 <th scope="row">{{ item.date2 | date: " " }}</th>
             {% endif %}
             <td>
-              {% if item.inline %}
+                {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
+                {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
+                {% endif %}
             </td>
-          </tr>
+            </tr>
         {% endfor %}
-        </table>
-      </div>
-    {% else %}
-      <p>No education so far...</p>
-    {% endif %}
+      </table>
+    </div>
+  {% else %}
+    <p>No education so far...</p>
+  {% endif %}
 </div>
   
