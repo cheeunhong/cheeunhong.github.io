@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2023-07-10
-inline: false
+date: 2020-03
+inline: true
 ---
 Seoul National University, South Korea
-Advisor: Prof. Kyoung Mu Lee
 
+Integrated Ph.D. in Electrical and Computer Engineering
+
+Advisor: Prof. Kyoung Mu Lee
