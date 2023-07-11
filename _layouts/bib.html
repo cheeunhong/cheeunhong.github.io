@@ -2,7 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 abbr">
           {%- if entry.preview -%}
           <div class="preview">
               {% if entry.preview contains '://' -%}
@@ -12,7 +12,7 @@
                 {% include figure.html
                 path=entry_path
                 class="preview img-fluid z-depth-1"
-                width="175"
+                width="200"
                 alt=entry.preview -%}
               {%- endif -%}
           </div>

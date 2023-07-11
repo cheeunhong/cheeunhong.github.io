@@ -4,6 +4,6 @@ date: 2020-03-01
 date2: 2023-03-01
 inline: true
 ---
-<p>Seoul National University, South Korea<br>
+Seoul National University, South Korea<br>
 Integrated Ph.D. in Electrical and Computer Engineering<br>
-Advisor: Prof. Kyoung Mu Lee</p>
+Advisor: Prof. Kyoung Mu Lee
