@@ -1,20 +1,7 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <!-- <div class="row">
-        <div class="col-sm-2">
-          {%- if entry.preview -%}
-            <img class="preview img-fluid z-depth-1" src="../assets/img/publication_preview/{{ entry.preview }}">
-          {%- endif -%}
-          {%- if entry.abbr -%}
-                {%- if site.data.venues[entry.abbr] -%}
-                    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-                {%- else -%}
-                    <abbr class="badge">{{entry.abbr}}</abbr>
-                {%- endif -%}
-          {%- endif -%}
-        </div> -->
-
+      <div class="row">
         <div class="col-sm-2">
           {%- if entry.abbr -%}
           <div class="abbr">
@@ -43,8 +30,6 @@
           </div>
           {%- endif -%}
         </div>
-
-
         <!-- <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
