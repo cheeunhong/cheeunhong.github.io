@@ -7,3 +7,6 @@ changed _layouts/bib.html L16
  {%- elsif entry.abbr -%} to  {%- if entry.abbr -%} 
  and added {%- endif -%}
  .
+
+To change the color, 
+go to _base.scss, and set color parameter to var(--global-theme-color);
