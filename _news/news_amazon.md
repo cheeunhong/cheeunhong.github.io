@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-07-10
+date: 2023-07-25
 inline: true
 ---
-`Coming soon!` <a href="https://cheeunhong.github.io/">TBD</a>.
+My new paper, `ODM` is available on <a href="https://arxiv.org/abs/2307.13337">link</a>.
