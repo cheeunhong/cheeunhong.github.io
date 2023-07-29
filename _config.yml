@@ -123,6 +123,14 @@ kramdown:
       line_numbers: false
       start_line: 1
 
+# repo color theme
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_trophies:
+  enabled: true
+  theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
+
 # Includes & excludes
 include: ['_pages']
 # TODO _pages 에서 불필요한 link 들 제외하기
