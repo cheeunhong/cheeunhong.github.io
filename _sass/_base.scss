@@ -452,6 +452,7 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+        color: var(--global-theme-color);
       }
       .author {
         a {
@@ -515,12 +516,12 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
-      div.tldr.hidden {
-        border: dashed 1px var(--global-bg-color);
-      }
-      div.tldr.hidden.open {
-        border-color: var(--global-text-color);
-      }
+      // div.tldr.hidden {
+        // border: dashed 1px var(--global-bg-color);
+      // }
+      // div.tldr.hidden.open {
+        // border-color: var(--global-text-color);
+      // }
       .teaser {
         border-radius: 8px;
         box-shadow: 3px 3px 6px #888;
