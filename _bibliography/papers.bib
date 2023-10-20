@@ -1,8 +1,11 @@
 @article{hong2022daq,
   title={Difficulty, Plausibility, and Diversity: Dynamic Data-Free Quantization},
   author={Hong*, Cheeun and Baik*, Sungyong and Oh, Junghun and Lee, Kyoung Mu},
+  journal={Submitted for Review},
+  abbr={In review},
   selected={true},
   year={2023},
+  preview={cover_dynadfq.png},
   abstract={Without access to the original training data, data-free quantization (DFQ) aims to recover the performance loss induced by quantization. Most previous works have focused on using an original network to extract the train data information, which is instilled into surrogate synthesized images. However, existing DFQ methods do not take into account important aspects of quantization: the extent of a computational-cost-and-accuracy trade-off varies for each image depending on its task difficulty. Neglecting such aspects, previous works have resorted to the same-bit-width quantization. By contrast, without the original training data, we make dynamic quantization possible by modeling varying extents of task difficulties in synthesized data. To do so, we first note that networks are often confused with similar classes. Thus, we generate plausibly difficult images with soft labels, where the probabilities are allocated to a group of similar classes. Under data-free setting, we show that the class similarity information can be obtained from the similarities of corresponding weights in the classification layer. Using the class similarity, we generate plausible images of diverse difficulty levels, which enable us to train our framework to dynamically handle the varying trade-off. Consequently, we demonstrate that our first dynamic data-free quantization pipeline, dubbed DynaDFQ, achieves a better accuracy-complexity trade-off than existing data-free quantization approaches across various settings.}
 }
 
@@ -11,7 +14,8 @@
 @article{hong2023odm,
   title={Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks},
   author={Hong, Cheeun and Lee, Kyoung Mu},
-  journal={arXiv},
+  journal={Submitted for Review},
+  abbr={ArXiv},
   preview={cover_odm.png},
   pdf={https://arxiv.org/abs/2307.13337},
   selected={true},
