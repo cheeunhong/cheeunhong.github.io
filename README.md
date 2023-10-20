@@ -10,3 +10,4 @@ changed _layouts/bib.html L16
 
 To change the color, 
 go to _base.scss, and set color parameter to var(--global-theme-color);
+overall control in _themes.scss 
