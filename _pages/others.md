@@ -19,7 +19,7 @@ importance: 10
     <h3>Academic Services</h3>
     <div>
         <ul>
-            <li>Conference Reviewer for ICCV 2023, CVPR 2023, ECCV 2022, CVPR 2022</li>
+            <li>Conference Reviewer for CVPR 2024, ICCV 2023, CVPR 2023, ECCV 2022, CVPR 2022</li>
             <li>Journal Reviewer for TNNLS</li>
         </ul>    
     </div>
