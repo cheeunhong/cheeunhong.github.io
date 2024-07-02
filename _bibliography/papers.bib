@@ -1,3 +1,15 @@
+@article{hong2024odm,
+  title={Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks},
+  author={Hong, Cheeun and Lee, Kyoung Mu},
+  journal={European Conference on Computer Vision},
+  abbr={ECCV},
+  preview={cover_odm.png},
+  selected={true},
+  code={https://github.com/Cheeun/ODM},
+  year={2024},
+  abstract={Quantization is a promising approach to reduce the high computational complexity of image super-resolution (SR) networks. However, low-bit quantization leads to severe accuracy loss in SR networks compared to high-level tasks such as image classification. This is because the feature distributions of the SR networks are significantly divergent for each channel or input image, making it difficult to determine a quantization range. Existing SR quantization works approach this distribution mismatch problem by dynamically adapting quantization ranges to the variant distributions during the test time. However, such a dynamic adaptation incurs additional computational costs that limit the benefits of quantization. Instead, we propose a new quantization-aware training framework that effectively overcomes the distribution mismatch problem in SR networks without the need for dynamic adaptation. Intuitively, the mismatch can be reduced by directly regularizing the distance between the feature to be quantized and the quantization grids during training. However, we observe that mismatch regularization can collide with reconstruction loss during training and adversely affect the SR accuracy. Thus, we avoid the conflict between two losses by regularizing the mismatch only when the gradients of mismatch regularization are cooperative with those of reconstruction loss. Additionally, we introduce a layer-wise weight clipping correcting scheme to find a better quantization range for layer-wise different weights. Experimental results show that our algorithm effectively reduces the distribution mismatch, achieving state-of-the-art performance with minimal computational overhead. Our code is available at <a href="https://github.com/Cheeun/ODM">https://github.com/Cheeun/ODM</a>.}
+}
+
 @article{hong2024adabm,
   title={AdaBM: On-the-Fly Adaptive Bit Mapping for Image Super-Resolution},
   author={Hong, Cheeun and Lee, Kyoung Mu},
@@ -12,7 +24,7 @@
 }
 
 
-@article{hong2022daq,
+@article{hong2022ddpq,
   title={Difficulty, Plausibility, and Diversity: Dynamic Data-Free Quantization},
   author={Hong*, Cheeun and Baik*, Sungyong and Oh, Junghun and Lee, Kyoung Mu},
   journal={Submitted for Review},
@@ -25,17 +37,7 @@
 
 
 
-@article{hong2024odm,
-  title={Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks},
-  author={Hong, Cheeun and Lee, Kyoung Mu},
-  journal={European Conference on Computer Vision},
-  abbr={ECCV},
-  preview={cover_odm.png},
-  selected={true},
-  code={https://github.com/Cheeun/ODM},
-  year={2024},
-  abstract={Quantization is a promising approach to reduce the high computational complexity of image super-resolution (SR) networks. However, compared to high-level tasks like image classification, low-bit quantization leads to severe accuracy loss in SR networks. This is because feature distributions of SR networks are significantly divergent for each channel or input image, and is thus difficult to determine a quantization range. Existing SR quantization works approach this distribution mismatch problem by dynamically adapting quantization ranges to the variant distributions during test time. However, such dynamic adaptation incurs additional computational costs that limit the benefits of quantization. Instead, we propose a new quantization-aware training framework that effectively Overcomes the Distribution Mismatch problem in SR networks without the need for dynamic adaptation. Intuitively, the mismatch can be reduced by directly regularizing the variance in features during training. However, we observe that variance regularization can collide with the reconstruction loss during training and adversely impact SR accuracy. Thus, we avoid the conflict between two losses by regularizing the variance only when the gradients of variance regularization are cooperative with that of reconstruction. Additionally, to further reduce the distribution mismatch, we introduce distribution offsets to layers with a significant mismatch, which either scales or shifts channel-wise features. Our proposed algorithm, called ODM, effectively reduces the mismatch in distributions with minimal computational overhead. Experimental results show that ODM effectively outperforms existing SR quantization approaches with similar or fewer computations, demonstrating the importance of reducing the distribution mismatch problem. Our code is available at <a href="https://github.com/Cheeun/ODM">https://github.com/Cheeun/ODM</a>.}
-}
+
 
 
 @article{hong2022cadyq,

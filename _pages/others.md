@@ -12,14 +12,15 @@ importance: 10
 	<div>
         <ul>
             <!-- <li><a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Collaboration Award 2022</a></li> -->
-            <li>The Best Paper Award (Silver Prize) at IPIU 2021 (33rd Workshop on Image Processing and Image Understanding)</li>
+            <li>The Best Paper Award at IPIU 2021 (33rd Workshop on Image Processing and Image Understanding)</li>
+            <li>The Grand Prize at Hynix Internship Program 2018 </li>
         </ul>    
 	</div>
 
     <h3>Academic Services</h3>
     <div>
         <ul>
-            <li>Conference Reviewer for CVPR 2024, ICCV 2023, CVPR 2023, ECCV 2022, CVPR 2022</li>
+            <li>Conference Reviewer for CVPR (2022, 2023, 2024), ICCV (2023), ECCV (2022, 2024)</li>
             <li>Journal Reviewer for TNNLS</li>
         </ul>    
     </div>
