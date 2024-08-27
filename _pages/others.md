@@ -8,12 +8,13 @@ importance: 10
 ---
 <div>
 
-    <h3>Awards</h3>
+    <h3>Awards & Honors</h3>
 	<div>
         <ul>
             <!-- <li><a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Collaboration Award 2022</a></li> -->
-            <li>The Best Paper Award at IPIU 2021 (33rd Workshop on Image Processing and Image Understanding)</li>
-            <li>The Grand Prize at Hynix Internship Program 2018 </li>
+            <li>Youlchon AI Star Scholarship, 2024 </li>
+            <li>The Best Paper Award at IPIU (33rd Workshop on Image Processing and Image Understanding) 2021 </li>
+            <li>The Grand Prize at Hynix Internship Program, 2018 </li>
         </ul>    
 	</div>
 
