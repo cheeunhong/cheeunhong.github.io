@@ -3,7 +3,7 @@ layout: aboutnew
 title: About
 permalink: /
 description: >
-    <p>Ph.D. Candidate<br>Department of Electrical and Computer Engineering, Seoul National University</p>
+    <p>Ph.D. Candidate @ Computer Vision Lab<br>Department of Electrical and Computer Engineering, Seoul National University</p>
 
 profile:
   align: right
@@ -18,4 +18,6 @@ social: false  # includes social icons at the bottom of the page
 importance: 1
 ---
 
-Recently, many problems have been solved with deep learning using massive computational sources, often referred to as red AI. On the other hand, I am interested in **green deep learning** that considers energy consumption and carbon emissions during model training and inference. My previous works are mainly focused on developing **efficient inference** techniques, including **network quantization and pruning**, to create lightweight models. I have also explored **test-time adaptation** of computational resources in several projects. Recently, I have been working on lightweight models for **low-level vision** problems, but my broader research goal is to compress any computationally demanding models.
+I am passionate about advancing **efficient AI** to optimize both model training and inference, with the ultimate goal of promoting sustainable AI. My research focuses on developing cutting-edge techniques like **network quantization**, **pruning**, and **test-time adaptation**, aimed at drastically reducing the computational costs while maintaining high performance. While much of my work has targeted efficiency improvements in low-level vision tasks like image restoration, my broader goal is to compress large-scale, computationally intensive models—including vision-language and generative models—to move closer to achieving **on-device AI**. <br>
+
+Keywords: Efficient AI, On-device AI
