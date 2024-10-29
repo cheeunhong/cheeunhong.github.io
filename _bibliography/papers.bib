@@ -1,3 +1,15 @@
+
+@article{hong2025ddpq,
+  title={Difficulty, Plausibility, and Diversity: Dynamic Data-Free Quantization},
+  author={Hong*, Cheeun and Baik*, Sungyong and Oh, Junghun and Lee, Kyoung Mu},
+  journal={Winter Conference on Applications of Computer Vision},
+  abbr={WACV},
+  selected={true},
+  year={2025},
+  preview={cover_dynadfq.png},
+  abstract={Without access to the original training data, data-free quantization (DFQ) aims to recover the performance loss induced by quantization. Most previous works have focused on using an original network to extract the train data information, which is instilled into surrogate synthesized images. However, existing DFQ methods do not take into account important aspects of quantization: the extent of a computational-cost-and-accuracy trade-off varies for each image depending on its task difficulty. Neglecting such aspects, previous works have resorted to the same-bit-width quantization. By contrast, without the original training data, we make dynamic quantization possible by modeling varying extents of task difficulties in synthesized data. To do so, we first note that networks are often confused with similar classes. Thus, we generate plausibly difficult images with soft labels, where the probabilities are allocated to a group of similar classes. Under data-free setting, we show that the class similarity information can be obtained from the similarities of corresponding weights in the classification layer. Using the class similarity, we generate plausible images of diverse difficulty levels, which enable us to train our framework to dynamically handle the varying trade-off. Consequently, we demonstrate that our first dynamic data-free quantization pipeline, dubbed DynaDFQ, achieves a better accuracy-complexity trade-off than existing data-free quantization approaches across various settings.}
+}
+
 @article{hong2024odm,
   title={Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks},
   author={Hong, Cheeun and Lee, Kyoung Mu},
@@ -36,17 +48,6 @@
   abstract={Face inpainting, the task of filling up missing regions in a face image plausibly, has witnessed great advances with deep learning-based approaches. To fill in the missing region, existing methods either use information from the surrounding visible region of the input image itself (i.e., context) or use prior knowledge obtained from the training data (i.e., latent). However, we find that exclusive usage of the two types of information is sub-optimal; whether the context-based approach is effective or the latent-based approach is effective is different for each missing region. To this end, we propose CoLaNet, a novel framework that adaptively blends context and latent information to inpaint face images. Specifically, the two types of information are balanced based on the attention between the missing region and the rest of the image. The regions strongly correlated to the visible region leverage context information more. Consequently, the adaptive utilization of context and latent information leads to better inpainting performance in various face images.}
 }
 
-
-@article{hong2025ddpq,
-  title={Difficulty, Plausibility, and Diversity: Dynamic Data-Free Quantization},
-  author={Hong*, Cheeun and Baik*, Sungyong and Oh, Junghun and Lee, Kyoung Mu},
-  journal={Winter Conference on Applications of Computer Vision},
-  abbr={WACV},
-  selected={true},
-  year={2025},
-  preview={cover_dynadfq.png},
-  abstract={Without access to the original training data, data-free quantization (DFQ) aims to recover the performance loss induced by quantization. Most previous works have focused on using an original network to extract the train data information, which is instilled into surrogate synthesized images. However, existing DFQ methods do not take into account important aspects of quantization: the extent of a computational-cost-and-accuracy trade-off varies for each image depending on its task difficulty. Neglecting such aspects, previous works have resorted to the same-bit-width quantization. By contrast, without the original training data, we make dynamic quantization possible by modeling varying extents of task difficulties in synthesized data. To do so, we first note that networks are often confused with similar classes. Thus, we generate plausibly difficult images with soft labels, where the probabilities are allocated to a group of similar classes. Under data-free setting, we show that the class similarity information can be obtained from the similarities of corresponding weights in the classification layer. Using the class similarity, we generate plausible images of diverse difficulty levels, which enable us to train our framework to dynamically handle the varying trade-off. Consequently, we demonstrate that our first dynamic data-free quantization pipeline, dubbed DynaDFQ, achieves a better accuracy-complexity trade-off than existing data-free quantization approaches across various settings.}
-}
 
 
 @article{hong2022cadyq,
