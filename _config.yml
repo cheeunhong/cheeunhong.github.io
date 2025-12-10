@@ -16,7 +16,7 @@ url:  'https://cheeunhong.github.io' # 'http://localhost:4000' # the base hostna
 baseurl: '' # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-cv: cheeunhong-cv-2024.10.29.pdf
+cv: cheeunhong-cv-2025.11.pdf
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
@@ -102,6 +102,11 @@ collections:
       layout: post
     output: true
     permalink: /education/:path/
+  internship:
+    defaults:
+      layout: post
+    output: true
+    permalink: /internship/:path/
 
 news_limit: 10
 

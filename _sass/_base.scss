@@ -224,6 +224,24 @@ blockquote {
   padding-bottom: 0rem;
 }
 
+// Internship
+.internship table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+  padding: -1rem;
+}
+
+.internship table th {
+  color: var(--global-text-color);
+  width: 95px;
+}
+
+// here I hack the padding directly
+.internship table.table-sm th, table.table-sm td {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
 
 // Social (bottom)
 
