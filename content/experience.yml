@@ -1,0 +1,29 @@
+# Shown on the home page under "Work experience", top to bottom in this order.
+# `detail` (what you did) and `note` (mentor/supervisor, shown on its own line below)
+# accept inline markdown, e.g. [link text](https://...).
+- title: Postdoctoral Researcher
+  org: Relational Machine Learning Group, CISPA Helmholtz Center for Information Security
+  location: Germany
+  period: Oct 2026 – Present
+  detail: Efficient LLMs and multi-agent systems through quantization and pruning.
+  note: "Supervisor: Rebekka Burkholz"
+
+- title: Research Scientist Intern
+  org: Meta Superintelligence Labs (MSL)
+  location: Switzerland
+  period: Jun 2025 – Dec 2025
+  detail: Post-training framework for efficient, controllable streaming video generation.
+  note: "Mentor: Albert Pumarola"
+
+- title: Student Research Intern
+  org: Machine Intelligence and Pattern Analysis Lab (MIPAL), Seoul National University
+  location: Korea
+  period: Jun 2019 – Sep 2019
+  detail: Designed and optimized a GAN framework for image generation.
+  note: "Mentor: Prof. Nojun Kwak"
+
+- title: Engineering Intern
+  org: SK Hynix, DRAM circuit design team
+  location: Korea
+  period: Jun 2018 – Sep 2018
+  detail: Designed an efficient verification system; Grand Prize (1st place) among 100+ interns.

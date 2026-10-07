@@ -1,0 +1,10 @@
+# One entry per course offering. Repeated offerings of the same course are grouped into one row.
+- course: Recent Trends in Computer Vision
+  role: Teaching Assistant
+  where: Seoul National University
+  term: Spring 2022
+
+- course: Introduction to Computer Vision
+  role: Teaching Assistant
+  where: Seoul National University
+  term: Spring 2022

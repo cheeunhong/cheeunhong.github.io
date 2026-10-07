@@ -1,0 +1,17 @@
+# Shown on the home page under "Education", top to bottom in this order.
+# `detail` and `note` (shown on its own line below) accept inline markdown, e.g. [link text](https://...).
+- title: Integrated Ph.D. in Electrical and Computer Engineering
+  org: Seoul National University
+  location: Korea
+  period: Mar 2020 – Aug 2026
+  note: "Supervisor: Prof. [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/kmlee/)"
+
+- title: Exchange Student in Computer Science
+  org: University of Applied Sciences and Arts Northwestern Switzerland (FHNW)
+  location: Switzerland
+  period: Fall 2017
+
+- title: B.S. in Electrical and Computer Engineering
+  org: Seoul National University
+  location: Korea
+  period: Mar 2015 – Feb 2020

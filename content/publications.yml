@@ -1,0 +1,201 @@
+# Publications, sorted automatically by year and month (newest first).
+#
+#   title / authors   Mark co-first authors with "*". Your own name is bolded automatically.
+#   venue             Full venue name (shown on hover).
+#   venue_tag         Short label shown on the card; its color comes from venue_colors.txt.
+#   month             Full month name; used for ordering within a year.
+#   selected          true → shown on the home page and in the "Selected" view.
+#   preview           Image (or .mp4/.webm) file name inside public/previews/.
+#   pdf / code / website / video   Optional links; each one becomes a button.
+#   topics            Tags used by the "Filter by Topic" menu.
+#   summary           One-line TL;DR shown under the authors.
+#   bibtex            Optional; adds a "BibTeX" button.
+
+- title: Cost-Controllable Quantization for Efficient Image Super-Resolution
+  authors: Cheeun Hong, Kyoung Mu Lee
+  venue: Under review
+  venue_tag: Under Review
+  year: 2026
+  topics: [Quantization, Super-Resolution]
+
+- title: "SneakPeek: Future-Guided Instructional Streaming Video Generation"
+  authors: Cheeun Hong, German Barquero, Fadime Sener, Markos Georgopoulos, Edgar Schönfeld, Stefan Popov, Yuming Du, Oscar Mañas, Albert Pumarola
+  venue: arXiv preprint
+  venue_tag: arXiv
+  year: 2025
+  month: December
+  selected: true
+  preview: cover_sneakpeek.png
+  pdf: https://arxiv.org/pdf/2512.13019
+  topics: [Video Generation]
+  summary: >-
+    A diffusion-based autoregressive framework that anticipates future keyframes to generate temporally coherent, step-by-step instructional videos in a streaming fashion.
+  bibtex: |
+    @article{hong2025sneakpeek,
+      title={SneakPeek: Future-Guided Instructional Streaming Video Generation},
+      author={Hong, Cheeun and Barquero, German and Sener, Fadime and Georgopoulos, Markos and Schönfeld, Edgar and Popov, Stefan and Du, Yuming and Mañas, Oscar and Pumarola, Albert},
+      journal={arXiv preprint arXiv:2512.13019},
+      year={2025}
+    }
+
+- title: "Diversity, Plausibility, and Difficulty: Dynamic Data-Free Quantization"
+  authors: Cheeun Hong*, Sungyong Baik*, Junghun Oh, Kyoung Mu Lee
+  venue: Winter Conference on Applications of Computer Vision
+  venue_tag: WACV
+  year: 2025
+  month: February
+  selected: true
+  preview: cover_dynadfq.png
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10943763
+  topics: [Quantization, Data-Free, Dynamic Inference]
+  summary: >-
+    The first dynamic data-free quantization: synthesizes plausibly difficult images with soft labels so a network learns to adapt its bit-width to each input.
+  bibtex: |
+    @inproceedings{hong2025ddpq,
+      title={Diversity, Plausibility, and Difficulty: Dynamic Data-Free Quantization},
+      author={Hong, Cheeun and Baik, Sungyong and Oh, Junghun and Lee, Kyoung Mu},
+      booktitle={Winter Conference on Applications of Computer Vision (WACV)},
+      year={2025}
+    }
+
+- title: Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks
+  authors: Cheeun Hong, Kyoung Mu Lee
+  venue: European Conference on Computer Vision
+  venue_tag: ECCV
+  year: 2024
+  month: September
+  selected: true
+  preview: cover_odm.png
+  pdf: https://arxiv.org/abs/2307.13337
+  code: https://github.com/Cheeun/ODM
+  topics: [Quantization, Super-Resolution]
+  summary: >-
+    Quantization-aware training that reduces feature distribution mismatch in SR networks through gradient-aligned regularization, without test-time dynamic adaptation.
+  bibtex: |
+    @inproceedings{hong2024odm,
+      title={Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks},
+      author={Hong, Cheeun and Lee, Kyoung Mu},
+      booktitle={European Conference on Computer Vision (ECCV)},
+      year={2024}
+    }
+
+- title: "AdaBM: On-the-Fly Adaptive Bit Mapping for Image Super-Resolution"
+  authors: Cheeun Hong, Kyoung Mu Lee
+  venue: Conference on Computer Vision and Pattern Recognition
+  venue_tag: CVPR
+  year: 2024
+  month: June
+  selected: true
+  preview: cover_adabm.png
+  pdf: https://arxiv.org/abs/2404.03296
+  code: https://github.com/Cheeun/AdaBM
+  topics: [Quantization, Super-Resolution, Dynamic Inference]
+  summary: >-
+    On-the-fly adaptive bit allocation for SR, calibrated with only a few images, cutting quantization processing time from hours to seconds (×2400 faster).
+  bibtex: |
+    @inproceedings{hong2024adabm,
+      title={AdaBM: On-the-Fly Adaptive Bit Mapping for Image Super-Resolution},
+      author={Hong, Cheeun and Lee, Kyoung Mu},
+      booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year={2024}
+    }
+
+- title: "CoLaNet: Adaptive Context and Latent Information Blending for Face Image Inpainting"
+  authors: Joonkyu Park, Cheeun Hong, Sungyong Baik, Kyoung Mu Lee
+  venue: IEEE Signal Processing Letters
+  venue_tag: IEEE SPL
+  year: 2023
+  month: December
+  preview: cover_colanet.png
+  pdf: https://ieeexplore.ieee.org/document/10349927
+  topics: [Image Inpainting]
+  summary: >-
+    Face inpainting that adaptively blends context from the visible image with learned latent priors, guided by attention between missing and visible regions.
+  bibtex: |
+    @article{park2023colanet,
+      title={CoLaNet: Adaptive Context and Latent Information Blending for Face Image Inpainting},
+      author={Park, Joonkyu and Hong, Cheeun and Baik, Sungyong and Lee, Kyoung Mu},
+      journal={IEEE Signal Processing Letters},
+      year={2023}
+    }
+
+- title: "CADyQ: Content-Aware Dynamic Quantization for Image Super-Resolution"
+  authors: Cheeun Hong, Sungyong Baik, Heewon Kim, Seungjun Nah, Kyoung Mu Lee
+  venue: European Conference on Computer Vision
+  venue_tag: ECCV
+  year: 2022
+  month: October
+  selected: true
+  preview: cover_cadyq.png
+  pdf: https://arxiv.org/abs/2207.10345
+  code: https://github.com/Cheeun/CADyQ
+  topics: [Quantization, Super-Resolution, Dynamic Inference]
+  summary: >-
+    Allocates bit-widths per image patch and per layer based on local content, enabling SR quantization below 8 bits with little accuracy loss.
+  bibtex: |
+    @inproceedings{hong2022cadyq,
+      title={CADyQ: Content-Aware Dynamic Quantization for Image Super-Resolution},
+      author={Hong, Cheeun and Baik, Sungyong and Kim, Heewon and Nah, Seungjun and Lee, Kyoung Mu},
+      booktitle={European Conference on Computer Vision (ECCV)},
+      year={2022}
+    }
+
+- title: Attentive Fine-Grained Structured Sparsity for Image Restoration
+  authors: Junghun Oh, Heewon Kim, Seungjun Nah, Cheeun Hong, Jonghyun Choi, Kyoung Mu Lee
+  venue: Conference on Computer Vision and Pattern Recognition
+  venue_tag: CVPR
+  year: 2022
+  month: June
+  preview: cover_sls.jpg
+  pdf: https://openaccess.thecvf.com/content/CVPR2022/papers/Oh_Attentive_Fine-Grained_Structured_Sparsity_for_Image_Restoration_CVPR_2022_paper.pdf
+  code: https://github.com/JungHunOh/SLS_CVPR2022
+  topics: [Pruning, Image Restoration]
+  summary: >-
+    Learns a layer-wise pruning ratio for N:M structured sparsity, improving the efficiency–accuracy trade-off for super-resolution and deblurring.
+  bibtex: |
+    @inproceedings{oh2022attentive,
+      title={Attentive Fine-Grained Structured Sparsity for Image Restoration},
+      author={Oh, Junghun and Kim, Heewon and Nah, Seungjun and Hong, Cheeun and Choi, Jonghyun and Lee, Kyoung Mu},
+      booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year={2022}
+    }
+
+- title: "DAQ: Channel-Wise Distribution-Aware Quantization for Deep Image Super-Resolution Networks"
+  authors: Cheeun Hong*, Heewon Kim*, Sungyong Baik, Junghun Oh, Kyoung Mu Lee
+  venue: Winter Conference on Applications of Computer Vision
+  venue_tag: WACV
+  year: 2022
+  month: January
+  selected: true
+  preview: cover_daq.png
+  pdf: https://cv.snu.ac.kr/publication/conf/2022/wacv2022_daq.pdf
+  code: https://github.com/Cheeun/DAQ-pytorch
+  topics: [Quantization, Super-Resolution]
+  summary: >-
+    Channel-wise, distribution-aware quantization that brings SR networks to ultra-low precision without a significant drop in restoration quality.
+  bibtex: |
+    @inproceedings{hong2022daq,
+      title={DAQ: Channel-Wise Distribution-Aware Quantization for Deep Image Super-Resolution Networks},
+      author={Hong, Cheeun and Kim, Heewon and Baik, Sungyong and Oh, Junghun and Lee, Kyoung Mu},
+      booktitle={Winter Conference on Applications of Computer Vision (WACV)},
+      year={2022}
+    }
+
+- title: Batch Normalization Tells You Which Filter is Important
+  authors: Junghun Oh, Heewon Kim, Sungyong Baik, Cheeun Hong, Kyoung Mu Lee
+  venue: Winter Conference on Applications of Computer Vision
+  venue_tag: WACV
+  year: 2022
+  month: January
+  preview: cover_bnfi.png
+  pdf: https://arxiv.org/abs/2112.01155
+  topics: [Pruning, Data-Free]
+  summary: >-
+    Data-free filter pruning that scores each filter's importance from the batch-normalization parameters of a pre-trained CNN.
+  bibtex: |
+    @inproceedings{oh2022batch,
+      title={Batch Normalization Tells You Which Filter is Important},
+      author={Oh, Junghun and Kim, Heewon and Baik, Sungyong and Hong, Cheeun and Lee, Kyoung Mu},
+      booktitle={Winter Conference on Applications of Computer Vision (WACV)},
+      year={2022}
+    }

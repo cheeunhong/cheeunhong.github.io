@@ -1,0 +1,14 @@
+name: Cheeun Hong
+title: Postdoctoral Researcher
+institution:
+  name: CISPA Helmholtz Center for Information Security
+  short_name: CISPA
+  url: https://cispa.de/
+email: cheeun.hong@cispa.de
+# Path of the CV PDF inside public/. Drop a new PDF there and update this line.
+cv: /assets/pdf/cheeunhong-cv-2026.10.pdf
+
+social:
+  github: https://github.com/Cheeun
+  linkedin: https://www.linkedin.com/in/cheeun-hong-6074b2176
+  scholar: https://scholar.google.com/citations?user=HHjMKhIAAAAJ

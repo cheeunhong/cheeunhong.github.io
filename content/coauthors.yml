@@ -1,0 +1,5 @@
+# Co-author names in publications.yml that match an entry here become links.
+# Key: last name in lowercase. `firstname`: accepted spellings of the first name.
+lee:
+  firstname: ["Kyoung Mu", "K. M."]
+  url: https://cv.snu.ac.kr/index.php/kmlee/

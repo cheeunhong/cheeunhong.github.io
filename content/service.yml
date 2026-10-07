@@ -1,0 +1,9 @@
+# Short list shown on the Awards & Service page. `text` accepts inline markdown.
+- label: Conference Reviewer
+  text: CVPR (2022–2026), ICCV (2023, 2025), ECCV (2022, 2024, 2026)
+
+- label: Journal Reviewer
+  text: IEEE TPAMI, IEEE TNNLS
+
+- label: Technology Transfer
+  text: Fast Deep Super-Resolution Algorithm, SNU R&DB, 2021

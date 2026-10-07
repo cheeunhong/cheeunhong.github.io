@@ -1,0 +1,8 @@
+# Accent color for each venue_tag used in publications.yml (TAG=#hex).
+CVPR=#1e40af
+ICCV=#0891b2
+ECCV=#dc2626
+WACV=#7c3aed
+IEEE SPL=#c2410c
+arXiv=#64748b
+Under Review=#94a3b8
