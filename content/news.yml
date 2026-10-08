@@ -2,7 +2,7 @@
 # `description` accepts inline markdown, e.g. [link text](https://...).
 - date: October 2026
   title: Joining CISPA as a Postdoctoral Researcher
-  description: I joined the Relational Machine Learning group at CISPA Helmholtz Center for Information Security, working on efficient LLMs and multi-agent systems.
+  description: I joined the Relational Machine Learning group at CISPA Helmholtz Center, working on efficient LLMs and multi-agent systems.
 
 - date: August 2026
   title: Completed my Ph.D. at Seoul National University
@@ -10,10 +10,10 @@
 
 - date: December 2025
   title: SneakPeek released on arXiv
-  description: Future-guided instructional streaming video generation, from my internship at Meta Superintelligence Labs.
+  description: Future-guided instructional streaming video generation, from my internship at Meta.
   url: https://arxiv.org/abs/2512.13019
   link_label: Paper
 
 - date: June 2025
   title: Joining Meta Superintelligence Labs
-  description: I will be working as a Research Scientist Intern at Meta Superintelligence Labs (MSL) for 6 months!
+  description: I will be working as a Research Scientist Intern at Meta Superintelligence Labs (MSL) in Zurich for 6 months!

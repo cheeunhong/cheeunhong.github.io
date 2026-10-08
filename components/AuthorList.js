@@ -22,7 +22,7 @@ export default function AuthorList({ authors, selfName = '', coauthors = {} }) {
             if (matches) {
                 return (
                     <span key={i}>{prefix}
-                        <a href={coauthor.url} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline" onClick={(e) => e.stopPropagation()}>{author}</a>{sep}
+                        <a href={coauthor.url} target="_blank" rel="noopener noreferrer" className="underline-offset-2 hover:underline" onClick={(e) => e.stopPropagation()}>{author}</a>{sep}
                     </span>
                 );
             }

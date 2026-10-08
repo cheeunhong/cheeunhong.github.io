@@ -2,11 +2,11 @@
 # `detail` (what you did) and `note` (mentor/supervisor, shown on its own line below)
 # accept inline markdown, e.g. [link text](https://...).
 - title: Postdoctoral Researcher
-  org: Relational Machine Learning Group, CISPA Helmholtz Center for Information Security
+  org: CISPA Helmholtz Center for Information Security
   location: Germany
   period: Oct 2026 – Present
   detail: Efficient LLMs and multi-agent systems through quantization and pruning.
-  note: "Supervisor: Rebekka Burkholz"
+  note: "Supervisor: [Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/)"
 
 - title: Research Scientist Intern
   org: Meta Superintelligence Labs (MSL)
@@ -20,7 +20,7 @@
   location: Korea
   period: Jun 2019 – Sep 2019
   detail: Designed and optimized a GAN framework for image generation.
-  note: "Mentor: Prof. Nojun Kwak"
+  note: "Supervisor: Prof. Nojun Kwak"
 
 - title: Engineering Intern
   org: SK Hynix, DRAM circuit design team

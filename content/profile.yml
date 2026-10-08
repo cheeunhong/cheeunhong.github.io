@@ -5,6 +5,7 @@ institution:
   short_name: CISPA
   url: https://cispa.de/
 email: cheeun.hong@cispa.de
+address: Im Oberen Werk 1, 66386 St. Ingbert, Germany
 # Path of the CV PDF inside public/. Drop a new PDF there and update this line.
 cv: /assets/pdf/cheeunhong-cv-2026.10.pdf
 

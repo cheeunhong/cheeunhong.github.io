@@ -73,6 +73,12 @@ export default function HomePage() {
                   <span className="hero-role-long">{profile.institution.name}</span>
                 </a></>}
               </p>
+              {profile.address && (
+                <p className="profile-address">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M12 21s-7-6.2-7-11.5a7 7 0 0114 0C19 14.8 12 21 12 21z" /><circle cx="12" cy="9.5" r="2.5" strokeWidth={1.8} /></svg>
+                  <span>{profile.address}</span>
+                </p>
+              )}
             </div>
             <AboutCopy html={htmlContent}>
               {keywords.length > 0 && (

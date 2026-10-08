@@ -11,12 +11,12 @@
 #   summary           One-line TL;DR shown under the authors.
 #   bibtex            Optional; adds a "BibTeX" button.
 
-- title: Cost-Controllable Quantization for Efficient Image Super-Resolution
-  authors: Cheeun Hong, Kyoung Mu Lee
-  venue: Under review
-  venue_tag: Under Review
-  year: 2026
-  topics: [Quantization, Super-Resolution]
+# - title: Cost-Controllable Quantization for Efficient Image Super-Resolution
+#   authors: Cheeun Hong, Kyoung Mu Lee
+#   venue: Under review
+#   venue_tag: Under Review
+#   year: 2026
+#   topics: [Quantization, Super-Resolution]
 
 - title: "SneakPeek: Future-Guided Instructional Streaming Video Generation"
   authors: Cheeun Hong, German Barquero, Fadime Sener, Markos Georgopoulos, Edgar Schönfeld, Stefan Popov, Yuming Du, Oscar Mañas, Albert Pumarola
@@ -107,6 +107,7 @@
   year: 2023
   month: December
   preview: cover_colanet.png
+  selected: true
   pdf: https://ieeexplore.ieee.org/document/10349927
   topics: [Image Inpainting]
   summary: >-
@@ -146,6 +147,7 @@
   venue_tag: CVPR
   year: 2022
   month: June
+  selected: true
   preview: cover_sls.jpg
   pdf: https://openaccess.thecvf.com/content/CVPR2022/papers/Oh_Attentive_Fine-Grained_Structured_Sparsity_for_Image_Restoration_CVPR_2022_paper.pdf
   code: https://github.com/JungHunOh/SLS_CVPR2022
@@ -187,6 +189,7 @@
   venue_tag: WACV
   year: 2022
   month: January
+  selected: true
   preview: cover_bnfi.png
   pdf: https://arxiv.org/abs/2112.01155
   topics: [Pruning, Data-Free]
